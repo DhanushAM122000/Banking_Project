@@ -12,12 +12,10 @@ public class BankImp implements Bank {
 	public void deposite(int amount) {
 		System.out.println("Depositing Rs."+amount);
 		balance+=amount;	//balance=balance+balance;
-		System.out.println("Amount Deposited Successfully");
-		
+		System.out.println("Amount Deposited Successfully");	
 	}
 
 	@Override
-	
 	public void withdraw(int amount) {
 		if(amount<=balance) {
 		System.out.println("Withdrawing Rs."+amount);
